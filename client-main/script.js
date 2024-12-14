@@ -5,7 +5,7 @@ const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')
 
 let loadInterval
-/*/ Credits: ActuallyBarcode/*/
+/*/ Credits: Osintedx/*/
 function loader(element) {
     element.textContent = ''
 
@@ -19,7 +19,7 @@ function loader(element) {
         }
     }, 300);
 }
-/*/ Credits: ActuallyBarcode/*/
+/*/ Credits: Osintedx/*/
 function typeText(element, text) {
     let index = 0
 
@@ -40,7 +40,7 @@ function generateUniqueId() {
 
     return `id-${timestamp}-${hexadecimalString}`;
 }
-/*/ Credits: ActuallyBarcode/*/
+/*/ Credits: Osintedx/*/
 function chatStripe(isAi, value, uniqueId) {
     return (
         `
@@ -58,7 +58,7 @@ function chatStripe(isAi, value, uniqueId) {
     `
     )
 }
-/*/ Credits: ActuallyBarcode/*/
+/*/ Credits: Osintedx/*/
 const handleSubmit = async (e) => {
     e.preventDefault()
 
@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-/*/ Credits: ActuallyBarcode/*/
+/*/ Credits: Osintedx/*/
     // fetch data from server -> bot's response
     const response = await fetch('http://localhost:5000', {
         method: 'POST',
@@ -101,7 +101,7 @@ const handleSubmit = async (e) => {
     if(response.ok) {
         const data = await response.json();
         const parsedData = data.bot.trim();
-/*/ Credits: ActuallyBarcode/*/
+/*/ Credits: Osintedx/*/
         typeText(messageDiv, parsedData);
     } else {
         const err = await response.text();
