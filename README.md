@@ -26,15 +26,15 @@ This license grants the user a non-exclusive, non-transferable license to use an
 
 Any user of the software must agree to the terms listed below:
 
-1. The user agrees not to share, redistribute, or sell any code derived from the Codex Barcode ChatGPT software.
+1. The user agrees not to share, redistribute, or sell any code derived from the Codex Osintedx ChatGPT software.
 
 2. The user agrees that any modifications to the software must be made publicly available, and must be accompanied by a copy of the original code.
 
-3. The user agrees to not use the software to create any software or product that is substantially similar to Codex Barcode ChatGPT.
+3. The user agrees to not use the software to create any software or product that is substantially similar to Codex Osintedx ChatGPT.
 
-4. The user agrees to not use the software to create any software or product that could be used to create a competitive advantage over the Codex Barcode ChatGPT.
+4. The user agrees to not use the software to create any software or product that could be used to create a competitive advantage over the Codex Osintedx ChatGPT.
 
-5. The user agrees to not use the software to create any software or product that could be used to circumvent any security measures implemented by Codex Barcode.
+5. The user agrees to not use the software to create any software or product that could be used to circumvent any security measures implemented by Codex Osintedx.
 
 6. The user agrees to indemnify and hold Codex API harmless from any damages, losses, or
 
