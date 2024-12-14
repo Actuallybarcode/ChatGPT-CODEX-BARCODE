@@ -1,6 +1,4 @@
-# CODE X API
-
- Run These Commands 
+Run These Commands 
  MUST HAVE NODE JS
  
 `npm install`
@@ -20,13 +18,11 @@ OPEN AI, EXPRESS, CORS, Nodemon, Vite
 
 Credits: openAI API
 
-Legal Licences: 
-Codex Barcode ChatGPT License
 Version 1.0
 
-Copyright (C) 2022 Codex Barcode
+Copyright (C) 2022
 
-This license grants the user a non-exclusive, non-transferable license to use and modify the Codex API ChatGPT software for personal and commercial purposes.
+This license grants the user a non-exclusive, non-transferable license to use and modify the API ChatGPT software for personal and commercial purposes.
 
 Any user of the software must agree to the terms listed below:
 
